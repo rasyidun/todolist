@@ -19,7 +19,7 @@
 				@endforeach
 			 	@endif	
 				<a href="todo/create" class="btn btn-info col-4"> Add New</a>
-				{!! Form::submit('Delete Latest List', ['class'=>'btn btn-danger col-sm-6 pull-right']) !!}					
+				{!! Form::submit('Delete List', ['class'=>'btn btn-danger col-sm-6 pull-right']) !!}					
 				{!! Form::close() !!}
 
 				</div>
